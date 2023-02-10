@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(12, 12, 12) ;
+    
+}
+#gamebord{
+    background-color: rgb(20, 169, 255);
+    width: 100vmin;
+    height: 100vmin;
+    display: grid;
+    grid-template-rows: repeat(21,1fr);
+    grid-template-columns: repeat(21,1fr);
+background-image: url(./img/—Pngtree—hand\ drawn\ cute\ cyan\ snake_5534520.png );
+/* background-image: url(./img/rabbit.png); */
+background-position: center ;
+background-repeat: no-repeat;
+
+background-size: 200px;
+position: relative;
+}
+.snake{
+    /* background-color:rgb(4, 248, 65); */
+    border:.25vmin solid rgb(245, 8, 138);
+    background-image: url(./img/—Pngtree—hand\ drawn\ cute\ cyan\ snake_5534520.png);
+    background-size: cover;
+}
+.food{
+   background-image: url(./img/rabbit.png);
+    border: .25vmin solid rgb(245, 8, 138);
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    margin-top: -20%;
+}
